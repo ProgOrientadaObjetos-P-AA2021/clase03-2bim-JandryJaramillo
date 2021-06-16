@@ -17,6 +17,6 @@ public class Reporte {
    
    @Override
     public String toString(){
-        return String.format("codigo: %s", getCodigo());
+        return String.format("Código: %s\n", getCodigo());
     }
 }

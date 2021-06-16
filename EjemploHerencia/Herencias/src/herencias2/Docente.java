@@ -2,12 +2,12 @@ package herencias2;
 
 public class Docente extends Persona {
     
+    private int sueldo;
+    
     public Docente(String n, String a, int e,int s) {
         super(n, a, e);
         setSueldo(s);
-    }
-    
-    public int sueldo;
+    }      
     
     public void setSueldo(int s){
         sueldo=s;
